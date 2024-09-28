@@ -1,5 +1,5 @@
 /*
-    Main page of https://appleinsider.ru
+    Main page of https://appleinsider.ru website
  */
 
 import com.codeborne.selenide.Selenide;
