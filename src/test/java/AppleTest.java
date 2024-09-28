@@ -6,8 +6,8 @@ public class AppleTest extends BaseTest {
 
     @Test
     public void checkHrefArticle() {
-        MainPage mainPage = new MainPage();
-        mainPage.openWebSite(BASE_URL);
+        MainPage mainPage = new MainPage(BASE_URL);
+        mainPage.search(SEARCH_STRING);
         int a = 1;
     }
 }
